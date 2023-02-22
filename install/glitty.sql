@@ -1,4 +1,4 @@
-CREATE DATABASE glitty;
+CREATE DATABASE glitty CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 
 USE glitty;
 
@@ -18,7 +18,7 @@ CREATE TABLE blog (
     tag VARCHAR(255) NOT NULL,
     category VARCHAR(255) NOT NULL,
     user_id INT NOT NULL,
-    post_date DATE NOT NULL
+    post_date TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
 );
 
 CREATE TABLE settings (
@@ -31,5 +31,3 @@ CREATE TABLE settings (
   analytics TEXT,
   htmltags TEXT
 );
-
-
