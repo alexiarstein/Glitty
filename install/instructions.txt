@@ -1,7 +1,0 @@
-1. run the sql script or copy/paste it in phpmyadmin to create a "glitty" database
-2. Create a glitty user and password and grant all privileges to this database.
-3. modify ge_conn.php to add the newly created user and password so it can successfully connect to the database.
-
-
-The rest of the settings are done once glitty is running, from the dashboard.
-
