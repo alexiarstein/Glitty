@@ -1,0 +1,9 @@
+user glitty
+pw *@NL@2Gz.WeyMfRV
+
+GLITTY Install
+
+
+1. run the .sql script
+create a db user named glitty and grant all privileges to this db.
+if you need to use another user, modify ge_conn.php
